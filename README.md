@@ -427,7 +427,7 @@ let options = {
 
 #### printPic(String base64encodeStr,ReadableMap options) ####
   prints the image which is encoded by base64, without schema.
-  * options: contains the params that may use in printing pic: "width": the pic width, basic on devices width(dots,58mm-384); "left": the left padding of the pic for the printing position adjustment.
+  * options: contains the params that may use in printing pic: "width": the pic width, basic on devices width(dots,58mm-384); "left": the left padding of the pic for the printing position adjustment. "bottom": the bottom padding of the pic for the printing position adjustment.
 
 #### setfTest() ####
   prints the self test.
